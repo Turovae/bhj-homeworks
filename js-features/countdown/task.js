@@ -13,20 +13,6 @@ timerId = setInterval(() => {
     }
 },1000);
 
-// const countTimer = function() {
-//     initialTimer.textContent -= 1;
-// }
-
-// const interval = setInterval(countTimer, 1000);
-
-// setTimeout(() => {clearInterval(countTimer); alert('Вы победили в конкурсе!')}, 60000);
-
-// class Timer {
-//     constructor(elemId, time) {
-//         this.elem = document.getElementById(elemId)
-//     }
-// }
-
 // #1
 class TimerExtended {
     constructor(elemId, alarm) {
