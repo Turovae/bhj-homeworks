@@ -20,7 +20,6 @@ const slideSwitcherArrows = (event) => {
         if (itemNumber < 0) {
             itemNumber = sliderItems.length - 1;
         }
-
     }
     if (arrow.classList.contains('slider__arrow_next')) {
         itemNumber++;
