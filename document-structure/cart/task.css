@@ -1,6 +1,11 @@
 body {
   font-family: Arial;
 }
+
+.cart-hidden {
+  display: none;
+}
+
 .cart__products {
   display: flex;
   justify-content: center;
@@ -13,10 +18,16 @@ body {
 .cart__product-count {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   border: 2px solid green;
   border-radius: 50%;
   padding: 2px 5px;
+}
+.cart__product-remove {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  cursor: pointer;
 }
 
 .cart__product-image {
